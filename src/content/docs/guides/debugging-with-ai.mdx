@@ -1,0 +1,117 @@
+---
+title: Debugging with AI
+description: Leveraging AI to identify and fix bugs faster
+template: doc
+---
+
+# AI-Assisted Debugging
+
+AI can significantly speed up the debugging process by analyzing code, identifying potential issues, and suggesting fixes. This guide covers techniques and best practices for debugging with AI assistance.
+
+## Getting Started
+
+### Basic Workflow
+
+1. **Error Analysis**
+   - Paste error messages into an AI tool
+   - Get explanations of what went wrong
+   - Receive potential solutions
+
+2. **Code Review**
+   - Submit suspicious code sections
+   - Get insights into potential bugs
+   - Learn about edge cases you might have missed
+
+3. **Root Cause Analysis**
+   - Describe the unexpected behavior
+   - Let the AI suggest possible causes
+   - Narrow down the issue systematically
+
+## Common Debugging Scenarios
+
+### 1. Error Messages
+- Copy-paste the complete error message
+- Include relevant code context
+- Ask for explanation and solutions
+
+### 2. Unexpected Behavior
+- Describe what you expected to happen
+- Explain what actually happened
+- Share the relevant code section
+
+### 3. Performance Issues
+- Share performance metrics
+- Include code that might be causing slowness
+- Ask for optimization suggestions
+
+## Best Practices
+
+### Effective Communication
+- Be specific about the problem
+- Include all relevant context
+- Share error messages verbatim
+- Provide code examples
+
+### Example Prompt
+
+```
+I'm getting this error in my Python code:
+
+  File "example.py", line 42, in process_data
+    return data[10]
+IndexError: list index out of range
+
+Here's the relevant code:
+
+def process_data(data):
+    # Process the first 10 items
+    for i in range(10):
+        data[i] = data[i].strip()
+    return data[10]  # This line fails
+
+How can I fix this issue?
+```
+
+## Advanced Techniques
+
+### 1. Interactive Debugging
+- Use AI to generate test cases
+- Step through code with AI assistance
+- Get explanations of complex code behavior
+
+### 2. Log Analysis
+- Paste log files for analysis
+- Identify patterns or anomalies
+- Get suggestions for log improvements
+
+### 3. Memory Leaks
+- Share memory usage patterns
+- Get help identifying potential leaks
+- Learn about memory management best practices
+
+## Limitations
+
+- AI might suggest incorrect fixes
+- May not understand complex business logic
+- Could miss security vulnerabilities
+- Might not be aware of the latest library versions
+
+## Tools for AI-Assisted Debugging
+
+- **GitHub Copilot**: Inline code suggestions
+- **Amazon CodeGuru**: Automated code reviews
+- **DeepCode**: AI-powered code review
+- **Tabnine**: AI code completion with debugging support
+
+## Next Steps
+
+- Practice with your own code
+- Compare AI suggestions with manual debugging
+- Learn from the AI's explanations
+- Stay updated with new AI debugging features
+
+## Resources
+
+- [GitHub Copilot for Debugging](https://docs.github.com/en/copilot/using-github-copilot/working-with-github-copilot-in-visual-studio-code)
+- [Amazon CodeGuru](https://aws.amazon.com/codeguru/)
+- [DeepCode Documentation](https://www.deepcode.ai/)
